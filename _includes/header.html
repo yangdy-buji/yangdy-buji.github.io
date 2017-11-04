@@ -1,0 +1,33 @@
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img src="{{ '/styles/images/logo.png' | prepend: site.baseurl }}" alt="不寂哥哥的个人博客">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li></li>
+        <li>
+          <a href="{{ '/' | prepend: site.baseurl }}">首页</a>
+        </li>
+        <li>
+          <a href="{{ '/categories/' | prepend: site.baseurl }}">分类</a>
+        </li>
+        <li>
+          <a href="{{ '/tag' | prepend: site.baseurl }}">标签</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a target="_blank" href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wuywbwo2&utm_source=wuywbwo2"><img src="{{ '/styles/images/aliyun/aliyun.png' | prepend: site.baseurl }}" style="height: 12px;width: 30px"/>幸运券</a></li>
+        <li><a rel="nofollow" href="{{ '/me' | prepend: site.baseurl }}">关于我</a></li>
+        <li><a href="{{ '/donate' | prepend: site.baseurl }}">打赏</a></li>        
+      </ul>
+    </nav>
+  </div>
+</header>

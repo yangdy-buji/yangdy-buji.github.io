@@ -1,0 +1,21 @@
+# Site settings
+name: 仰望星空，脚踏实地
+email: yangdy@aliyun.com
+author: yangdy
+url: http://yangdy.com
+resume_site: http://yangdy.com/me/
+github: https://github.com/yangdy-buji/
+baseurl: ""  #根目录
+description: 心怀梦想，不畏寂寞
+motto: 我们的征程是星辰大海
+banner: 欢迎来领阿里云幸运券，你是最幸运的人 👍
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->' #文章摘要
+paginate: 8
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github_username: yangdy-buji
+highlighter: rouge
+markdown: kramdown
